@@ -12,6 +12,7 @@ public class HelloServlet extends HttpServlet {
     public void init() {
         message = "Hello World!";
         System.out.println("本地修改");
+        System.out.println("远程修改");
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
