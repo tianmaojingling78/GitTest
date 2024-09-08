@@ -24,6 +24,7 @@ public class HelloServlet extends HttpServlet {
     }
 
     public void destroy() {
+        System.out.println("远程修改");
         System.out.println("本地修改");
     }
 }
