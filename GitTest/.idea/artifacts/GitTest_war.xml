@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" external-system-id="Maven" name="GitTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>GitTest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="GitTest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="GitTest:war exploded" />
+    </root>
+  </artifact>
+</component>
